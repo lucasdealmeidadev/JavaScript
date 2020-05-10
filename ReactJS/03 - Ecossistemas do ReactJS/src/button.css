@@ -1,0 +1,24 @@
+.button{
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 15px 20px;
+    background: #333333;
+    color: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 30px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    transition-duration: 0.3s;
+    outline: none;
+    width: 100%;
+}
+
+.button:hover {
+    background: #000000;
+    color:  #ffffff;
+}
