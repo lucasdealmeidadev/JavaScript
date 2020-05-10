@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DESAFIO - 02</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container mt-2">
+                <div class="alert alert-dismissible" role="alert" id="msg">
+                </div>
+
+                <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="dados" id="dados" placeholder="Informe um elemento para o array : " value="">
+                        </div>
+
+                        <button type="button" class="btn btn-primary" onclick="adicionar()">Adicionar</button>
+                        <button type="button" class="btn btn-primary" onclick="listar()">Listar</button>
+                </form>
+
+                <hr>
+
+                <p id="info" style="text-align: left"></p>
+                <p id="info2" class="text-danger" style="text-align: center"></p>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" async defer></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" async defer></script>
+        <script src="js/script.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/bootstrap-theme.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<title>Validando Formulários com Javascript</title>
+
+		<style>
+				body{
+					background-color: #f1f1f1;
+					font-family: 'Roboto', sans-serif;
+				}
+				.container{
+					margin-top: 5em;
+				}
+		</style>
+	</head>
+	<body onload="iniciar()">
+			<div class="container">
+				<div class="alert alert-danger" role="alert" id="erro" style="display: none"></div>
+				<div class="alert alert-success" role="alert" id="success" style="display: none"></div>
+
+				<form name="form_val" action="" method="post">
+						<div class="form-group">
+							<input name="nome" type="text" class="form-control" placeholder="Nome :" id="nome"/>
+						</div>
+			
+						<div class="form-group">
+							<input name="email" type="text" class="form-control" placeholder="E-mail:" id="email"/>
+						</div>
+			
+						<div class="form-group">
+							<input name="senha" type="password" class="form-control" placeholder="Senha:" id="senha"/>
+						</div>
+			
+						<div class="form-group">
+							<input name="r_senha" type="password" class="form-control" placeholder="Repetir senha:" id="r_senha"/>
+						</div>
+						<div class="text-center">
+							<button type="submit" class="btn btn-primary btn-lg" id="validar">Enviar</button>
+						</div>
+				</form>
+
+			</div>
+
+			<script src="js/script.js"></script>
+	</body>
+</html>
